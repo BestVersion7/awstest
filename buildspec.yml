@@ -14,7 +14,8 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Compiling the Node.js code
-      - cd client && npm run build
+      - cd client && npm install
+      - npm run build
   post_build:
     commands:
       - echo Build completed on `date`
@@ -22,7 +23,8 @@ phases:
 # Do not use recursively include artifacts from node_modules directory as it will include unnecessary packages 
 # used only for building and testing.
 # ExpressJS apps will need other artifact directories included (bin/*, public/*, routes/*, views/* etc).
+
 artifacts:
- files:
-  - '**/*'
-  base-directory: client/build
+  files:
+    - '**/*'
+  base-directory: 'client/build'  
