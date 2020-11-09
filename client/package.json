@@ -1,0 +1,58 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.9.4",
+    "@material-ui/icons": "^3.0.2",
+    "axios": "^0.19.2",
+    "axios-mock-adapter": "^1.19.0",
+    "concurrently": "^4.1.2",
+    "cookie": "^0.4.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "express": "^4.17.1",
+    "js-cookie": "^2.2.1",
+    "mongoose": "^5.10.11",
+    "morgan": "^1.10.0",
+    "nock": "^10.0.6",
+    "node-sass": "^4.14.1",
+    "nodemon": "^1.19.4",
+    "prop-types": "^15.7.2",
+    "react": "^16.14.0",
+    "react-cookie": "^4.0.3",
+    "react-dom": "^16.14.0",
+    "react-google-login": "^5.1.22",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.4",
+    "react-test-renderer": "^16.14.0",
+    "sinon": "^7.5.0",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "proxy": "http://localhost:4000",
+  "description": "Hello there",
+  "main": "server.js",
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,15 @@
+node_modules
+
+//
+confag
+
+.env
+/2020old
+feliciapair.pem
+serverOrig.js
+serverSQL.js
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
